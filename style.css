@@ -100,7 +100,8 @@ figure {
  */
 
 .car-image {
-  height: 250px;
+  height: auto;
+  width: 100%
 }
 
 .alert {
