@@ -106,6 +106,13 @@ figure {
   height: 250px;
   width: auto;
 }
+@media (max-width:500px){
+  .car-image{
+
+    width:100% !important;
+    height: auto !important;
+  }
+}
 
 .alert {
   text-align: center;
