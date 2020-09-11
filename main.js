@@ -47,6 +47,14 @@ function getInputVal(id) {
   return document.getElementById(id).value;
 }
 
+function required(inputtx) {
+  if (inputtx.value.length == 0) {
+    alert("Some Input Required!");
+    return false;
+  }
+  return true;
+}
+
 // Save message to firebase
 function saveMessage(name, email, phone, message) {
   var newMessageRef = messagesRef.push();
